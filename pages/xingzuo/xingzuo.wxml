@@ -1,0 +1,39 @@
+<!--pages/xingzuo/xingzuo.wxml-->
+
+
+
+<view class="name">
+       {{XZ.name}}
+    </view>
+    
+  
+    
+        <view class="Box">
+    <view class="all">综合运势\n{{XZ.all}}</view>
+
+    <view class="qita">
+    <view  class="qi">爱情运势:{{XZ.love}}</view>
+    <view  class="qi">理财运势:{{XZ.money}}</view>
+    <view  class="qi">工作状况:{{XZ.work}}</view>
+    </view>
+    
+    </view>
+    <view class="juti">
+    <view class="ju">{{XZ.health}}</view>
+    <view class="ju">{{XZ.color}}</view>
+    <view class="ju">{{XZ.QFriend}}</view>
+    <view class="ju">{{XZ.number}}</view>
+    </view>
+
+    <view class="linBox">
+    <view class="lin">健康指数</view>
+    <view class="lin">幸运色</view>
+    <view class="lin">速配星座</view>
+    <view class="lin">幸运数字</view>
+    </view>
+
+    <view class="yunshi"><text>本周运势:\n</text>{{XZ.summary}}</view>
+
+
+
+

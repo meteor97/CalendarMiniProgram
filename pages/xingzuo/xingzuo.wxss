@@ -1,0 +1,55 @@
+/* pages/xingzuo/xingzuo.wxss */
+
+
+
+.name{
+   width: 96%;
+    padding: 0 2%;
+    display: flex;
+    text-align:center;
+    color: white
+}
+
+.Box{
+   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  top:200rpx;
+   color: white
+ 
+}
+.juti{
+   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 600rpx;
+   color: hsl(150, 83%, 49%)
+
+}
+.linBox{
+   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 500rpx;
+  color: white
+}
+.yunshi{
+   width: 100%;
+    padding: 0 2%;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 200rpx;
+  color: white
+}
+
+
+page {
+    background-color: #eee;
+    background-image: url("http://www.agri35.com/UploadFiles/img_0_82087894_3696344906_27.jpg")
+}

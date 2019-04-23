@@ -1,0 +1,9 @@
+<!--pages/story/story.wxml-->
+
+<view class="weui-article__section"wx:for="{{story}}" wx:for-index="idx" wx:for-item="st">
+                    <view class="weui-article__h3">更新时间：{{st.updatetime}}</view>
+                    <view class="weui-article__p">{{st.content}}</view> 
+                    <view class="divLine"></view>
+                </view>
+
+              

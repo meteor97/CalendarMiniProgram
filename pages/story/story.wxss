@@ -1,0 +1,8 @@
+/* pages/story/story.wxss */
+
+.divLine{
+ background: #E0E3DA;
+ width: 100%;
+ height: 5rpx;
+}
+page { background-color: #c5c2bd; }

@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/xingzuo/xingzuo",
+    "pages/tianqi/tianqi",
+    "pages/story/story"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00ec00",
+    "navigationBarTitleText": "中华日历",
+    "navigationBarTextStyle": "black"
+  }
+}
